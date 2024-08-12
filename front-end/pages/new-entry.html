@@ -21,14 +21,19 @@
           type="text"
           id="new-entry"
           class="container mb-2"
+        ></textarea>
+        <div
+          class="button-container container-fluid d-flex justify-content-between p-0"
         >
-        </textarea>
-        <a href="./home.html">
-          <button class="btn btn-success me-3">Add new Post</button>
-        </a>
-        <a href="./home.html">
-          <button class="btn btn-outline-secondary ms-3">Cancel</button>
-        </a>
+          <a href="./home.html">
+            <button class="btn btn-success me-2" id="add-new-post-button">
+              Add new Post
+            </button>
+          </a>
+          <a href="./home.html">
+            <button class="btn btn-secondary" id="cancel-button">Cancel</button>
+          </a>
+        </div>
       </div>
     </div>
     <script
@@ -36,5 +41,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="../src/new-entry.js"></script>
   </body>
 </html>
